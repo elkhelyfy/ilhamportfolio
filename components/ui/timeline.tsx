@@ -1,6 +1,5 @@
 "use client";
 import {
-  useMotionValueEvent,
   useScroll,
   useTransform,
   motion,
@@ -9,12 +8,14 @@ import { CalendarDays, MapPin } from "lucide-react";
 import React, { useEffect, useRef, useState } from "react";
 
 interface TimelineEntry {
-  title: string;
-  content: React.ReactNode;
-  date: string;
-  position: string;
-  location: string;
-  section : string;
+  data: {
+    title: string;
+    date: string;
+    location: string;
+    position: string;
+    content: React.ReactNode; // Allows JSX elements
+  }[];
+  section: string;
 }
 
 export const Timeline = ({ data, section }: TimelineEntry) => {

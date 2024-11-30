@@ -26,6 +26,7 @@ export function Education() {
     },
   ];
   return (
+    /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
     <div className="w-full">
       <Timeline data={data} section="My Education" />
     </div>

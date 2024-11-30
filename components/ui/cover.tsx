@@ -31,6 +31,7 @@ export const Cover = ({
       );
       setBeamPositions(positions);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ref.current]);
 
   return (
@@ -211,8 +212,7 @@ export const Beam = ({
 };
 
 export const CircleIcon = ({
-  className,
-  delay,
+  className
 }: {
   className?: string;
   delay?: number;
