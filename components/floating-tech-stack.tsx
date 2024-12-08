@@ -12,7 +12,7 @@ export default function FloatingTechStack() {
     <div className="relative w-96 h-96 flex justify-center items-center">
       {/* Central Profile Image */}
       <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg">
-        <Image src="/images/python.svg" alt="Profile" fill className="object-cover" />
+        <Image src="/images/newavatar.png" loading="lazy" alt="Profile" fill className="object-cover" />
       </div>
 
       {/* Logos around the central image with blur and transparency */}

@@ -1,6 +1,6 @@
 "use client";
 // import { House, FlaskConical, BriefcaseBusiness, Link } from "lucide-react";
-const Navigation = () => {
+const Footer = () => {
   return (
     <nav className="mt-4">
       <div className="mx-auto flex items-center justify-around">
@@ -30,6 +30,6 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default Footer;
 
 
